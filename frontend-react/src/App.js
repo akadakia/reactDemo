@@ -6,18 +6,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Add New Employee</h1>
-        <form>
-          <label>
-            Name:
-            <input type="text" name="name" />
-          </label>
-          <input type="submit" value="Submit" />
-        </form>
-        <h4>Note that the default width of a text field is 20 characters.</h4>
-
        <h1>Employee List</h1>
         <Employees />
+
+        <h2>Add New Employee</h2>
+                <form>
+                  <label>
+                    Name:
+                    <input type="text" name="name" />
+                  </label>
+                  <input type="submit" value="Submit" />
+                </form>
+                <h5>Note that the default width of a text field is 20 characters.</h5>
       </header>
     </div>
   );

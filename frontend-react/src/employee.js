@@ -21,13 +21,13 @@ export default class EmployeeList extends React.Component {
           <table id="customers">
               <thead>
                 <tr>
+                  <th>Id</th>
                   <th>Name</th>
                   <th>Salary</th>
-                  <th>Id</th>
                   <th>Role</th>
                 </tr>
               </thead>
-              <tbody>{ this.state.employees.map(employee => <tr><td>{employee.name}</td><td>{employee.salary}</td><td>{employee.role}</td><td>{employee.id}</td></tr>)}</tbody>
+              <tbody>{ this.state.employees.map(employee => <tr><td>{employee.id}</td><td>{employee.name}</td><td>{employee.salary}</td><td>{employee.role}</td></tr>)}</tbody>
             </table>
         )
       }
