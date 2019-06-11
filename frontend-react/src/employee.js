@@ -29,6 +29,8 @@ export default class EmployeeList extends React.Component {
               </thead>
               <tbody>{ this.state.employees.map(employee => <tr><td>{employee.id}</td><td>{employee.name}</td><td>{employee.salary}</td><td>{employee.role}</td></tr>)}</tbody>
             </table>
+
         )
       }
+
 }

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.services.EmployeeServicesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.example.demo.services.EmployeeServicesTest
+test(com.example.demo.services.EmployeeServicesTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.example.demo.services.EmployeeServicesTest.test(EmployeeServicesTest.java:11)
+
