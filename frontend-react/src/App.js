@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
        <font color="red"><h1>Employee List</h1></font>
         <Employees />
-        <h2>Add/Update Employee</h2>
+        <h2>--Add/Update Employee--</h2>
         <Form />
       </header>
     </div>

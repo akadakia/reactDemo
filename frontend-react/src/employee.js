@@ -8,7 +8,7 @@ export default class EmployeeList extends React.Component {
  }
 
    componentDidMount() {
-      axios.get(`http://localhost:9876/skysthelimit`)
+      axios.get(`http://localhost:9876/homepage`)
         .then(res => {
           const employees = res.data;
            console.log(employees);
