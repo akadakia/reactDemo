@@ -22,7 +22,7 @@ public class EmployeeController {
 	private EmployeeServices service;
 
 	@CrossOrigin(origins = "http://localhost:3000")
-	@GetMapping(path = "/skysthelimit", produces = "application/json")
+	@GetMapping(path = "/homepage", produces = "application/json")
 	public List<Employee> getEmployees() {
 		List<Employee> list = service.getEmployees();
 		return list;
