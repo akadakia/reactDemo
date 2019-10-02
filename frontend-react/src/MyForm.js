@@ -52,7 +52,7 @@
              Name:
             <input
               type="text"
-              name="name"
+              name="Name"
               value={name}
               onChange={this.onChange}
             />
@@ -61,7 +61,7 @@
             Salary:
             <input
               type="text"
-              name="salary"
+              name="Salary"
               value={salary}
               onChange={this.onChange}
             />
@@ -69,13 +69,13 @@
             <label>
             Role:
             <input
-              name="role"
+              name="Role"
               type="text"
               value={role}
               onChange={this.onChange}
             />
             </label>
-            <button type="submit">Submit!</button>
+            <button type="submit">Submit For Approval</button>
           </form>
           </div>
         );
